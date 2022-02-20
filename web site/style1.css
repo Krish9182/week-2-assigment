@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 5rem;
+}
+p{
+    margin-left: auto;
+    padding-top: 0.3rem;
+    color: azure;
+}
+input[type="checkbox"]{
+    margin-left: auto;
+    color: azure;
+}
+input[type="radio"]{
+    margin-left: auto;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    
+    margin-left: auto;
+    width: 35rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    border: 5px solid #1e1e1e;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+select{
+    
+    margin-left: auto;
+    width: 7rem;
+    height: 3rem;
+}
+.botton{
+    margin-left: 30%;
+    width: 9rem;
+    height: 2rem;
+    background-color: rgba(184, 4, 4, 0.897);
+    color: azure;
+    cursor: pointer;  
+}
+
+.botton:hover{
+    background-color: rgb(133, 33, 128);
+    color: azure;
+    
+}
+.sign_up{
+    background-color: rgb(43, 10, 226);
+    margin-right: 22rem;
+    margin-left: 22rem;
+    padding-left: 10rem;
+    height: 35rem;
+}
+label{
+    color:azure ;
+}
